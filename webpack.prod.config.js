@@ -15,7 +15,7 @@ var ENV = !!(+process.env.NODE_ENV || 0);
 module.exports = [{
   name: 'prod',
   entry: {
-    "react-d3-tooltip": js_root + 'index.js',
+    "react-d3-tooltip-customized": js_root + 'index.js',
   },
 
   output: {
