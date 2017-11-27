@@ -1,6 +1,6 @@
 {
   "name": "react-d3-tooltip-customized",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "node module for d3",
   "main": "./lib/index",
   "scripts": {
