@@ -13,14 +13,14 @@ app.use(require('webpack-dev-middleware')(compiler, {
 
 app.use(require('webpack-hot-middleware')(compiler));
 
-/*app.get('/example', function(req, res) {
+app.get('/example', function(req, res) {
   res.sendFile(path.join(__dirname, './example/index.html'));
 });
 
 app.get('/example/*', function(req, res) {
   res.sendFile(path.join(__dirname, './example/index.html'));
 });
-*/
+
 app.listen(5000, 'localhost', function(err) {
   if (err) {
     console.log(err);
